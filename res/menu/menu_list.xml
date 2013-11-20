@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_import"
+        android:menuCategory="system"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/menu_import">
+    </item>
+    <item
+        android:id="@+id/menu_search"
+        android:menuCategory="system"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/menu_search">
+    </item>
+    <item
+        android:id="@+id/menu_filter"
+        android:menuCategory="system"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_filter_base">
+        <menu>
+            <item
+                android:id="@+id/menu_filter_added_date"
+                android:menuCategory="alternative"
+                android:orderInCategory="1"
+                android:title="@string/menu_filter_date_added">
+            </item>
+            <item
+                android:id="@+id/menu_filter_alpha"
+                android:menuCategory="alternative"
+                android:orderInCategory="2"
+                android:title="@string/menu_filter_alphabetically"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/manu_manual_entry"
+        android:menuCategory="system"
+        android:orderInCategory="4"
+        android:title="@string/menu_manual_entry">
+    </item>
+
+</menu>

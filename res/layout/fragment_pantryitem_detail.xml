@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pantryitem_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantryItemDetailActivity"
+    tools:ignore="MergeRootFrame" 
+    android:orientation="vertical">
+    
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Dragon Fruit"
+        android:imeOptions="normal"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:id="@+id/layer_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/label_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:text="Unit:"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/unit_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="18sp"/> 
+<!--             android:spinnerMode="dropdown" -->
+<!--             /> -->
+
+        <TextView
+            android:id="@+id/label_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:hint="6"
+            android:textSize="54sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_individual_items"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    </LinearLayout>
+

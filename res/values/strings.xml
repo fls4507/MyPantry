@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Pantry</string>
+    <string name="title_pantryitem_detail">PantryItem Detail</string>
+    <string name="edit_details">Edit</string>
+    <string name="menu_add_subitem">Add</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_filter_date_added">Date Added</string>
+    <string name="menu_filter_base">Filter</string>
+    <string name="menu_manual_entry">Manual Entry</string>
+    <string name="menu_filter_alphabetically">Alphabetically</string>
+
+    <string-array name="units">
+        <item>Count</item>
+        <item>lbs</item>
+        <item>Oz</item>
+        <item>Tares</item>
+        <item>Lengths</item>
+        <item>Units</item>
+    </string-array>
+
+</resources>

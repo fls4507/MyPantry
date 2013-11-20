@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pantryitem_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantryItemDetailActivity"
+    tools:ignore="MergeRootFrame" />
+
+
+<!-- You are probably looking for the code in fragment_pantryitem_detail.xml -->
